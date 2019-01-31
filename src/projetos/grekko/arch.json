@@ -1,0 +1,17 @@
+{
+    "name": "grekko",
+    "textG": "grekko",
+    "textM": "estratégia de rede social, plano de marketing, identidade visual e material offline.",
+    "textP": "O Grekko foi um restaurante e pub localizado na Praia de Pirangi - RN, durante o veraneio de 2018. Aagência foi responsável por toda identidade desse projeto. Nos inspiramos na arquitetura, história e sofisticação das ilhas gregas, para a criação deste projeto. ",
+    "images": [
+        {   
+            "nm": "img1.jpg",
+            "class": "col-12"
+        },
+        {
+            "nm": "img2.jpg",
+            "class": "col-12"
+        }
+    ],
+    "vid": []
+}

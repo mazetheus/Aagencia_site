@@ -1,0 +1,25 @@
+{
+    "name": "plano urbanismo",
+    "textG": "plano urbanismo",
+    "textM": "redes sociais & site",
+    "textP": "",
+    "images": [
+        {   
+            "nm": "img1.jpg",
+            "class": "col-12"
+        },
+        {
+            "nm": "img2.jpg",
+            "class": "col-6 col-md-4"
+        },
+        {
+            "nm": "img3.jpg",
+            "class": "col-6 col-md-4"
+        },
+        {
+            "nm": "img4.jpg",
+            "class": "col-6 col-md-4"
+        }
+    ],
+    "vid": []
+}

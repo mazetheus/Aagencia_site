@@ -1,0 +1,17 @@
+{
+    "name": "fim de ano bestplace",
+    "textG": "Fim de ano BestPlace",
+    "textM": "planejamento estratégico e execução online e displays",
+    "textP": "A campanha de fim de ano 2018 da BestPlace foi criada unindo o humor, com referência às piadas contadas em tal época, e as vantagens ao anunciar com a marca.<br> Criamos o slogan \"Se sua propaganda é boa, você vai precisar do melhor lugar para anunciá-la\" e essa foi veiculada nas redes sociais e nos painéis de LED da empresa.",
+    "images": [
+        {   
+            "nm": "img1.png",
+            "class": "col-12"
+        },
+        {
+            "nm": "img2.jpg",
+            "class": "col-12"
+        }
+    ],
+    "vid": []
+}

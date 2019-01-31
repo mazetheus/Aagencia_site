@@ -1,0 +1,17 @@
+{
+    "name": "grandes carnavais",
+    "textG": "Redesign Grandes Carnavais",
+    "textM": "estratégia de rede social, plano de marketing, identidade visual e material offline",
+    "textP": "",
+    "images": [
+        {   
+            "nm": "img1.jpg",
+            "class": "col-12"
+        },
+        {
+            "nm": "img2.png",
+            "class": "col-12"
+        }
+    ],
+    "vid": []
+}

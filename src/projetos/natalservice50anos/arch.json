@@ -1,0 +1,17 @@
+{
+    "name": "50 anos natal service",
+    "textG": "50 anos Natal Service",
+    "textM": "planejamento estratégico e execução online e offline, vt para tv, spot para rádio",
+    "textP": "",
+    "images": [
+        {   
+            "nm": "img1.png",
+            "class": "col-12"
+        },
+        {
+            "nm": "img2.jpg",
+            "class": "col-12"
+        }
+    ],
+    "vid": []
+}

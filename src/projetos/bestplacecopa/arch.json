@@ -1,0 +1,17 @@
+{
+    "name": "best place na copa",
+    "textG": "Best Place na Copa",
+    "textM": "campanha digital",
+    "textP": "A campanha da Best Place na Copa foi criada com o intuito de divulgar informações ao público como curiosidades e resultados dos jogos em tempo real. Foram desenvolvidas peças interativas para as redes sociais e telões de LED.",
+    "images": [
+        {   
+            "nm": "img1.png",
+            "class": "col-12"
+        },
+        {
+            "nm": "img2.jpg",
+            "class": "col-12"
+        }
+    ],
+    "vid": []
+}

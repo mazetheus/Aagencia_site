@@ -1,0 +1,17 @@
+{
+    "name": "natal da unic car",
+    "textG": "Natal da Unic car",
+    "textM": " planejamento estratégico e execução online e offline, vt para tv, spot para rádio",
+    "textP": "",
+    "images": [
+        {   
+            "nm": "img1.jpg",
+            "class": "col-12"
+        },
+        {
+            "nm": "img2.png",
+            "class": "col-12"
+        }
+    ],
+    "vid": []
+}
