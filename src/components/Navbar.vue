@@ -6,7 +6,7 @@
 
 			<b-collapse is-nav id="nav_collapse">
 				<b-navbar-nav class="ml-auto">
-					<b-nav-item v-for="(item,index) in menu" :to="item.to" :href="item.link" :key="'nav-'+index" :replace="item[1]=='#'">{{item.text}}</b-nav-item>
+					<b-nav-item v-for="(item,index) in menu" :to="item.to" :key="'nav-'+index" v-scroll-to="item.to">{{item.text}}</b-nav-item>
 					<b-nav-item href="https://instagram.com/aagenciadigital"><font-awesome-icon class="fa-icon" :icon="['fab', 'instagram']"></font-awesome-icon></b-nav-item>
 				</b-navbar-nav>
 			</b-collapse>
@@ -36,9 +36,6 @@
 	width: 100%;
 	top: 0;
 	z-index: 1001;
-}
-
-.navbar-nav {
 }
 
 .nav-item {

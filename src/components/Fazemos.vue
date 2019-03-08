@@ -61,7 +61,7 @@
 
 	.oqfazemos {
 		padding: 0px 120px 64px 120px;
-		margin-top: -96px;
+		margin-top: -68px;
 	}
 
 	.servico {
