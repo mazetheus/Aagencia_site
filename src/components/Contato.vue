@@ -7,12 +7,13 @@
 			<div class="border-space"></div>
 			<div class="contato-text-wrap w-75">
 				<p class="text-left contato-text" v-for="(info,index) in infos" :key="index">{{info}}</p>
-				<p class="text-left contato-text"><a href="https://instagram.com/aagenciadigital" target="_blank"><font-awesome-icon class="fa-icon" :icon="['fab', 'instagram']"></font-awesome-icon></a></p>
+				<p class="text-left contato-text contato-icon"><a href="https://instagram.com/aagenciadigital" target="_blank"><font-awesome-icon class="fa-icon" :icon="['fab', 'instagram']"></font-awesome-icon></a></p>
+				<p class="text-left contato-text contato-icon"><a href="https://api.whatsapp.com/send?phone=558433018085" target="_blank"><font-awesome-icon class="fa-icon" :icon="['fab', 'whatsapp']"></font-awesome-icon></a></p>
 			</div>
 		</b-col>
 		<b-col class="aux">
 			<div class="contato-mapa">
-          <div style="width: 100%"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3969.275132692238!2d-35.22081748565316!3d-5.816764858980415!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7b255593ea1d46d%3A0x95fe3338b7260095!2sAAG%C3%8ANCIA+DIGITAL!5e0!3m2!1spt-BR!2sbr!4v1544807315379" width="100%" height="500" frameborder="0" style="border:0" allowfullscreen></iframe></div><br />
+          <div style="width: 100%"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3969.275132692238!2d-35.22081748565316!3d-5.816764858980415!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7b255593ea1d46d%3A0x95fe3338b7260095!2sAAG%C3%8ANCIA+DIGITAL!5e0!3m2!1spt-BR!2sbr!4v1544807315379" class="mapa" frameborder="0" style="border:0" allowfullscreen></iframe></div><br />
       </div>
 		</b-col>
 	</b-row>
@@ -38,7 +39,10 @@
 		padding-bottom: 64px;
 		color: #000;
 	}
-	
+	.mapa{
+		width: 100%;
+		height: 500px;
+	}
 	.contato-border {
 		width: 100%;
 		height: 4px;
@@ -58,6 +62,11 @@
 		padding-left: 165px;
 	}
 
+	.contato-icon{
+		display: inline;
+		padding-left: 20px !important;
+	}
+
 	.contato-mapa {
 		padding-right: 136px;
 		filter: grayscale(100%);
@@ -68,20 +77,16 @@
 		font-size: 18px;
 	}
 
-	.aux {
-	}
-
 	.border-space {
 		padding: 8px 0px;
 	}
 
 	@media (max-width: 768px) {
-		.contato-mapa {
-			padding-right: 64px;
-		}
-	}
 
-	@media (max-width: 576px) {
+		.mapa{
+			width: 90%;
+			height: 200px;
+		}
 		.contato-header {
 			font-size: 8vw;
 		}
@@ -91,6 +96,9 @@
 
 		.contato-mapa {
 			padding-right: 0px;
+		}
+		.contato {
+			padding-bottom: 10px;
 		}
 	}
 </style>

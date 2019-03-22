@@ -2,10 +2,10 @@
 	<footer class="container-fluid" :style="{background: $route.name == 'home' ? '#00F8C7' : '#F3F3F3'}">
 		<b-row class="footer-inner">
 			<b-col class="col-md-6 col-12 align-self-center">
-				<p class="copyright">© 2018 aagênciadigital.todos os direitos reservados.</p>
+				<p class="copyright">© 2019 aagênciadigital.todos os direitos reservados.</p>
 				<div class="copy-border mx-auto"></div>
 			</b-col>
-			<b-col>
+			<b-col class="desktop">
 				<b-navbar toggleable="md">
 					<b-navbar-nav class="mx-auto align-self-center">
 						<b-nav-item v-for="(item,index) in menu" :to="item.link" :key="'footer-'+index">{{item.text}}</b-nav-item>
@@ -61,5 +61,11 @@
 
 	.nav-link {
 		color: #000 !important;
+	}
+		
+	@media (max-width: 768px) {
+		.desktop{
+			display: none;
+		}
 	}
 </style>

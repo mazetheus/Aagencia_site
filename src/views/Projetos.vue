@@ -24,7 +24,7 @@
 		},
 		data() {
 			return {
-				destaque: 'planourbanismo',
+				destaque: 'grandescarnavais',
 				projetos: this.$appData.projetos,
 				width: 0,
 				height: 0

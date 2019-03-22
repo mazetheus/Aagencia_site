@@ -14,7 +14,7 @@
 			return {
 				medias: [
 					{src: "img1.png", class: 'col-12'},
-					{src: "img2.jpg", class: 'col-12'}
+					{src: "img2.png", class: 'col-12'}
 				]
 			}
 		}
