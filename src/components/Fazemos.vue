@@ -4,7 +4,7 @@
 			<h1 class="oqf-header text-left">o que<br> fazemos:</h1>
 		</b-col>
 
-		<b-col v-for="(servico, index) in servicos" :key="'fazemos-'+index" class="col-md-4 col-sm-12 servico-desktop">
+		<b-col v-for="(servico, index) in servicos" :key="'fazemos-'+index" class="col-6 col-md-4 servico servico-desktop">
 			<h4 class="text-left servico-title">{{servico.title}}</h4>
 			<div class="servico-border" :style="{background: servico.color, width: '100%', height: '4px'}"></div>
 			<div class="text-left servico-text">{{servico.text}}</div>
@@ -29,12 +29,12 @@
 				servicos: [
 					{
 						title: 'social media', 
-						text: 'Para construir a presença digital da sua empresa e aumentar as vendas e conhecimento de marca, é preciso conteúdo. Desenvolvemos todo o planejamento estratégico para as redes sociais, desde sua concepção até o acompanhamento e monitoração dos resultados.', 
+						text: 'Para construir a presença digital da sua empresa e aumentar as vendas, é preciso conteúdo. Desenvolvemos todo o planejamento estratégico para suas redes sociais, desde a concepção até o monitoramento dos resultados.', 
 						color: '#0040a6'
 					},
 					{
 						title: 'gestão de mídia', 
-						text: 'Utilizamos inteligência de conteúdo para desenvolver campanhas e anúncios pagos nas plataformas digitais, direcionados para o seu público de forma estratégica, garantindo a geração de leads/pessoas interessadas no seu serviço/produto.', 
+						text: 'Utilizamos inteligência de conteúdo para desenvolver campanhas e anúncios pagos nas plataformas digitais, direcionados para o seu público de forma estratégica.', 
 						color: '#ffcd00'
 					},
 					{
@@ -49,7 +49,7 @@
 					},
 					{
 						title: 'construção de sites', 
-						text: 'Com um site institucional, seus clientes podem acessar as informações da sua empresa com segurança, credibilidade e facilidade. Desenvolvemos sites responsivos (com funcionamento adaptável para todas as telas), além de plataformas de vendas online, sejam elas temporárias ou não.', 
+						text: 'Com um site institucional, seus clientes podem acessar as informações da sua empresa com segurança, credibilidade e facilidade. Desenvolvemos sites responsivos e plataformas de vendas online, sejam elas temporárias ou não.', 
 						color: '#0040a6'
 					},
 					{
@@ -112,7 +112,7 @@
 
 	.servico-title {
 		font-weight: 700;
-		font-size: 30px;
+		font-size: 25px;
 		color: #000;
 		position: center;
 	}

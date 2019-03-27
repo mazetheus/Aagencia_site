@@ -7,8 +7,7 @@
 			<div class="border-space"></div>
 			<div class="contato-text-wrap w-75">
 				<p class="text-left contato-text" v-for="(info,index) in infos" :key="index">{{info}}</p>
-				<p class="text-left contato-text contato-icon"><a href="https://instagram.com/aagenciadigital" target="_blank"><font-awesome-icon class="fa-icon" :icon="['fab', 'instagram']"></font-awesome-icon></a></p>
-				<p class="text-left contato-text contato-icon"><a href="https://api.whatsapp.com/send?phone=558433018085" target="_blank"><font-awesome-icon class="fa-icon" :icon="['fab', 'whatsapp']"></font-awesome-icon></a></p>
+				<p class="text-left contato-text"><a href="https://instagram.com/aagenciadigital" target="_blank"><font-awesome-icon class="fa-icon" :icon="['fab', 'instagram']"></font-awesome-icon></a> &nbsp;&nbsp; <a href="https://api.whatsapp.com/send?phone=558433018085" target="_blank"><font-awesome-icon class="fa-icon whats" :icon="['fab', 'whatsapp']"></font-awesome-icon></a></p>
 			</div>
 		</b-col>
 		<b-col class="aux">
@@ -79,6 +78,10 @@
 
 	.border-space {
 		padding: 8px 0px;
+	}
+
+	.espaco{
+		padding: 0px 10px;
 	}
 
 	@media (max-width: 768px) {

@@ -7,7 +7,8 @@
 			<b-collapse is-nav id="nav_collapse">
 				<b-navbar-nav class="ml-auto">
 					<b-nav-item v-for="(item,index) in menu" :to="item.to" :key="'nav-'+index" v-scroll-to="item.to">{{item.text}}</b-nav-item>
-					<b-nav-item href="https://instagram.com/aagenciadigital"><font-awesome-icon class="fa-icon" :icon="['fab', 'instagram']"></font-awesome-icon></b-nav-item>
+					<b-nav-item href="https://instagram.com/aagenciadigital" target="_blank"><font-awesome-icon class="fa-icon" :icon="['fab', 'instagram']"></font-awesome-icon></b-nav-item>
+					<b-nav-item href="https://api.whatsapp.com/send?phone=558433018085" target="_blank"><font-awesome-icon class="fa-icon" :icon="['fab', 'whatsapp']"></font-awesome-icon></b-nav-item>
 				</b-navbar-nav>
 			</b-collapse>
 		</b-navbar>
