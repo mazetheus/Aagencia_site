@@ -9,7 +9,6 @@
 			<b-col class="col-12 col-md-6 text-left align-self-center">
 				<h1 class="textG">{{dados.textG}}</h1>
 				<h3 class="textM">{{dados.textM}}</h3>
-				<!--<p class="textP" v-html="dados.textP"></p>-->
 				<p class="textP" v-html="description"></p>
 			</b-col>
 			<b-col>
@@ -17,16 +16,6 @@
 			</b-col>
 		</b-row>
 
-		<!--<b-row class="content">
-
-			<b-col v-for="(img,index) in dados.images" :class="'images '+img.class" :key="'proj-img-'+index">
-				<b-img :src="require('@/projetos/'+$route.params.name+'/'+img.nm)" fluid></b-img>
-			</b-col>
-
-			<b-col v-for="(vid,index) in dados.vid" :class="'videos ' + vid.class" v-html="vid.content" :key="'proj-vid-'+index">
-				
-			</b-col>
-		</b-row>-->
 		<component class="content" :is="images"></component>
 
 		<b-row class="content content-inner">

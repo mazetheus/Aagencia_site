@@ -14,6 +14,7 @@ library.add(faFacebook, faInstagram, faWhatsapp)
 library.add(faPhone)
 library.add(faArrowCircleLeft, faArrowCircleRight)
 Vue.component('font-awesome-icon', FontAwesomeIcon)
+
 Vue.prototype.$appData = {
 	projetos: [
 		'grandescarnavais',
@@ -34,6 +35,9 @@ Vue.prototype.$appData = {
 		'uniccar'
 	]
 }
+
+
+
 
 Vue.config.productionTip = false
 

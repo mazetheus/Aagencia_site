@@ -35,7 +35,7 @@
           eventAction: 'click',
           eventLabel: 'Telefone'
         });
-      }
+      },
     }
   }
   

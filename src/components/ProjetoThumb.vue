@@ -10,6 +10,7 @@
 </template>
 
 <script type="text/javascript">
+	
 	export default {
 		props: {
 			projeto: String,
@@ -20,8 +21,10 @@
 			return {
 				dados: json_data
 			}
-		}
+		},
+		
 	}
+
 </script>
 
 <style type="text/css" scoped>
