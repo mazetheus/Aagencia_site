@@ -2,6 +2,7 @@ import Vue from 'vue'
 import Router from 'vue-router'
 import Home from './views/Home.vue'
 import jQuery from 'jquery'
+import About from './views/About.vue'
 let $ = jQuery;
 Vue.use(Router)
 
@@ -36,6 +37,10 @@ export default new Router({
           path: '/projeto/:name',
           name:'projeto',
           component: () => import('./views/Projeto.vue')
+        },
+        {
+          path: "*",
+          component: About,
         }
     ]
 });

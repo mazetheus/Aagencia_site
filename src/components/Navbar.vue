@@ -33,7 +33,7 @@
 <style type="text/css" scoped>
 .navbar {
 	padding-top: 8px;
-	position: absolute;
+	position: fixed;
 	width: 100%;
 	top: 0;
 	z-index: 1001;
@@ -49,7 +49,7 @@
 	font-size: 18px;
 }
 .nav-link {
-	color: #fff !important;
+	color: #000 !important;
 }
 
 .navbar-brand {

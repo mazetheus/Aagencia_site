@@ -45,7 +45,9 @@
 		background: url('../assets/cases-bg-1.png');
 		background-size: cover;
 		padding: 96px 86px 64px 96px;
-		margin-top: -80px;
+		margin-top: -20px;
+		background-position: 0px 0px;
+		background-attachment: scroll;
 	}
 
 	.cases-inner {
